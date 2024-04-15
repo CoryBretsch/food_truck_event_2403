@@ -1,7 +1,8 @@
 class Item
   attr_reader :name,
-              :price
-              
+              :price,
+              :details_hash
+
   attr_accessor :amount
   
   def initialize(details_hash)
